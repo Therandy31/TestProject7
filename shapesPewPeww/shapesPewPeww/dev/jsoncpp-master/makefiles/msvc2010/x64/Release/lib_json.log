@@ -1,0 +1,17 @@
+﻿Build started 9/29/2014 3:46:15 PM.
+     1>Project "C:\Users\Matthew\Documents\visual studio 2013\Projects\shapesPewPeww\shapesPewPeww\dev\jsoncpp-master\makefiles\msvc2010\lib_json.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\src\lib_json\json_reader.cpp ..\..\src\lib_json\json_value.cpp ..\..\src\lib_json\json_writer.cpp
+         json_reader.cpp
+         json_value.cpp
+         json_writer.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Matthew\Documents\Visual Studio 2013\Projects\shapesPewPeww\shapesPewPeww\dev\jsoncpp-master\makefiles\msvc2010\x64\Release\lib_json.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\json_reader.obj
+         x64\Release\json_value.obj
+         x64\Release\json_writer.obj
+         lib_json.vcxproj -> C:\Users\Matthew\Documents\Visual Studio 2013\Projects\shapesPewPeww\shapesPewPeww\dev\jsoncpp-master\makefiles\msvc2010\x64\Release\lib_json.lib
+     1>Done Building Project "C:\Users\Matthew\Documents\visual studio 2013\Projects\shapesPewPeww\shapesPewPeww\dev\jsoncpp-master\makefiles\msvc2010\lib_json.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.96

@@ -1,0 +1,32 @@
+﻿Build started 9/30/2014 6:04:25 PM.
+     1>Project "c:\Users\Matthew\documents\visual studio 2013\Projects\shapesPewPeww\shapesPewPeww\shapesPewPeww.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I".\dev\glew-1.10.0\include" /I.\dev\glm /I".\dev\SDL2-2.0.3\include" /I".\dev\jsoncpp-master\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CGLBuffer.cpp CGLBufferManager.cpp CGLShader.cpp CGLShaderManager.cpp CSDLManager.cpp CSession.cpp main.cpp
+         CGLBufferManager.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+         CSession.cpp
+         CSDLManager.cpp
+     1>c:\users\matthew\documents\visual studio 2013\projects\shapespewpeww\shapespewpeww\csdlmanager.cpp(41): warning C4101: 'height' : unreferenced local variable
+     1>c:\users\matthew\documents\visual studio 2013\projects\shapespewpeww\shapespewpeww\csdlmanager.cpp(41): warning C4101: 'width' : unreferenced local variable
+         CGLShaderManager.cpp
+         CGLShader.cpp
+         CGLBuffer.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\matthew\documents\visual studio 2013\Projects\shapesPewPeww\Debug\shapesPewPeww.exe" /INCREMENTAL /NOLOGO /LIBPATH:".\dev\glew-1.10.0\lib\Release\Win32" /LIBPATH:".\dev\SDL2-2.0.3\lib\x86" /LIBPATH:".\dev\jsoncpp-master\makefiles\msvc2010\Debug" SDL2main.lib SDL2.lib opengl32.lib glu32.lib glew32.lib lib_json.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\matthew\documents\visual studio 2013\Projects\shapesPewPeww\Debug\shapesPewPeww.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\matthew\documents\visual studio 2013\Projects\shapesPewPeww\Debug\shapesPewPeww.lib" /MACHINE:X86 Debug\CEventManager.obj
+         Debug\CGLBuffer.obj
+         Debug\CGLBufferManager.obj
+         Debug\CGLShaderManager.obj
+         Debug\CSDLManager.obj
+         Debug\CSession.obj
+         Debug\CGLShader.obj
+         Debug\main.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         shapesPewPeww.vcxproj -> c:\users\matthew\documents\visual studio 2013\Projects\shapesPewPeww\Debug\shapesPewPeww.exe
+     1>Done Building Project "c:\Users\Matthew\documents\visual studio 2013\Projects\shapesPewPeww\shapesPewPeww\shapesPewPeww.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.55

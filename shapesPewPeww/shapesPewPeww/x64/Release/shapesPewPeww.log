@@ -1,0 +1,16 @@
+﻿Build started 9/29/2014 3:50:56 PM.
+     1>Project "c:\Users\Matthew\documents\visual studio 2013\Projects\shapesPewPeww\shapesPewPeww\shapesPewPeww.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I".\dev\glew-1.10.0\include" /I.\dev\glm /I".\dev\SDL2-2.0.3\include" /I".\dev\jsoncpp-master\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt CEventManager.cpp main.cpp
+         CEventManager.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\matthew\documents\visual studio 2013\Projects\shapesPewPeww\x64\Release\shapesPewPeww.exe" /NOLOGO /LIBPATH:".\dev\glew-1.10.0\lib\Release\Win32" /LIBPATH:".\dev\SDL2-2.0.3\lib\x86" /LIBPATH:".\dev\jsoncpp-master\makefiles\msvc2010\x64\Release" SDL2main.lib SDL2.lib opengl32.lib glu32.lib glew32.lib lib_json.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\matthew\documents\visual studio 2013\Projects\shapesPewPeww\x64\Release\shapesPewPeww.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\matthew\documents\visual studio 2013\Projects\shapesPewPeww\x64\Release\shapesPewPeww.lib" /MACHINE:X64 x64\Release\CEventManager.obj
+         x64\Release\main.obj
+     1>MSVCRT.lib(crtexe.obj) : error LNK2001: unresolved external symbol main
+     1>c:\users\matthew\documents\visual studio 2013\Projects\shapesPewPeww\x64\Release\shapesPewPeww.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "c:\Users\Matthew\documents\visual studio 2013\Projects\shapesPewPeww\shapesPewPeww\shapesPewPeww.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.72
